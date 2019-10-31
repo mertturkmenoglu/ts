@@ -6,7 +6,7 @@ function printName(name: string) {
     console.log(name)
 }
 
-function add(first: number, second: number) : number {
+function myAdd(first: number, second: number) : number {
     return first + second
 }
 
@@ -20,7 +20,7 @@ function printAnything(value: any) {
 
 printName("Emily")
 
-let sum = add(3, 4)
+let sum = myAdd(3, 4)
 console.log(sum)
 
 printInfo("Emily", 35)

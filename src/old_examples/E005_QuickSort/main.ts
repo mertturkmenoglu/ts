@@ -33,8 +33,8 @@ function partition(array: Array<number>, begin: number, end: number): number {
 }
 
 
-let arr = [3, 2, 4, 4, 5, 1, 0, 2, 9, 5, 4, 6, 3]
-console.log(arr)
-quickSort(arr)
-console.log(arr)
+let arr_qs = [3, 2, 4, 4, 5, 1, 0, 2, 9, 5, 4, 6, 3]
+console.log(arr_qs)
+quickSort(arr_qs)
+console.log(arr_qs)
 
